@@ -13,4 +13,14 @@ public class AptidaoFisica {
             }
         }
     }
+    public void isAutorizado(String credenciais){
+        if(credenciais == null){
+            throw new IllegalArgumentException("preencha todos os parametros!");
+        }
+        System.out.println("Autorizado");
+    }
+    
+    public void isFormado(String[] cursos) throws MeuErroArray, MeuErroParametro{
+        
+    }
 }
